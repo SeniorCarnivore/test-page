@@ -93,6 +93,16 @@ body {
 
   &.head {
     margin: 0 0 5px;
+
+    &:before {
+      content: '';
+      display: inline-block;
+      width: 21px;
+      height: 16px;
+      background-image: url('../img/ico-people.png');
+      margin-right: 5px;
+      transform: translateY(2px);
+    }
   }
 
   &.table-head {
